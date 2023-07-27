@@ -7,9 +7,7 @@ from fastapi import FastAPI
 #  uvicorn main:app --reload
 from pydantic import BaseModel
 
-app = FastAPI(
-    title="Trading App"
-)
+app = FastAPI(title="Trading App")
 
 
 fake_users = [

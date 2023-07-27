@@ -1,4 +1,5 @@
 fastapi[all]
+fastapi-users[sqlalchemy]
 alembic
 sqlalchemy
 psycopg2-binary
